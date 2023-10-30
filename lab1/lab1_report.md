@@ -67,9 +67,12 @@
     network: static
     ipv4-subnet: 192.168.0.0/24
   ```
-Получившееся изображение трёхуровневой сети связи: ![result](https://github.com/shuNya19/2023_2024-introduction_in_routing-k33212-kardakov-m-d/assets/66511121/8d2cd628-a6e7-451e-bc85-330d6e0e756d)
 
-![Screenshot from 2023-10-30 09-20-06](https://github.com/shuNya19/2023_2024-introduction_in_routing-k33212-kardakov-m-d/assets/66511121/05c9cc91-d9f9-4f23-8389-157dd6fd1148)
+В данном файле мы объявляем название схемы сети (name), информацию о характере сети (mgmt) и два основных компонента - nodes и links, то есть узлы в сети и связи между ними.  
+
+Результат деплоя данной схемы: ![Screenshot from 2023-10-30 09-20-06](https://github.com/shuNya19/2023_2024-introduction_in_routing-k33212-kardakov-m-d/assets/66511121/05c9cc91-d9f9-4f23-8389-157dd6fd1148)
+
+Получившееся изображение трёхуровневой сети связи: ![result](https://github.com/shuNya19/2023_2024-introduction_in_routing-k33212-kardakov-m-d/assets/66511121/8d2cd628-a6e7-451e-bc85-330d6e0e756d)
 
 
 **3.** Далее была проведена настройка IP-адресов и VLAN-ов, создание DHCP. Также были настроены имена устройств.<br>
