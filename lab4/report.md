@@ -117,7 +117,7 @@ Router reflect мы настроим на роутерах LND и HKI
 
 
 
-После настройки router reflect у нас обновится таблица VRF_DEVOPS
+После настройки router reflect (BGP) у нас обновится таблица VRF_DEVOPS
 
 * NY
 
@@ -144,14 +144,68 @@ Router reflect мы настроим на роутерах LND и HKI
 ![image](https://github.com/shuNya19/2023_2024-introduction_in_routing-k33212-kardakov-m-d/assets/66511121/fe045f4b-3c81-46cb-a07f-264662f4b988)
 
 
-* PC1 - PC2; PC1 - PC2
+* PC1 - PC2; PC1 - PC3
 
 ![image](https://github.com/shuNya19/2023_2024-introduction_in_routing-k33212-kardakov-m-d/assets/66511121/48404acb-62ba-41a6-b2dd-5a2781b7b89f)
 
 
 **5. Часть 2 - VPLS. Настройка мостов**</br>
 
+Разбираем таблицу vrf и настраиваем vpls. 
+
+![image](https://github.com/shuNya19/2023_2024-introduction_in_routing-k33212-kardakov-m-d/assets/66511121/dd75e2c5-1eb4-4f7c-85ca-28e87db54305)
+
+Для соответственного удаленного устройства создадим интерфейсы vpls
+
+
+* NY
+
+Создаем мост VPLS
+
+![image](https://github.com/shuNya19/2023_2024-introduction_in_routing-k33212-kardakov-m-d/assets/66511121/f3056907-0004-4ac7-a4d3-d9c4b7c4046e)
+
+И два интерфейса для удаленных устройств
+
+![image](https://github.com/shuNya19/2023_2024-introduction_in_routing-k33212-kardakov-m-d/assets/66511121/23ba5746-7b81-4f0b-86e9-4f35882d67c6)
+
+Далее мы их объединим
+
+![image](https://github.com/shuNya19/2023_2024-introduction_in_routing-k33212-kardakov-m-d/assets/66511121/1a80893c-6d34-444e-8483-0b7fee05f3cc)
+
+Аналогично настрои еще 2 роутера
+
+* SPB
+
+![image](https://github.com/shuNya19/2023_2024-introduction_in_routing-k33212-kardakov-m-d/assets/66511121/43efffb8-b887-4a3e-ba6d-7034b150d91d)
+
+* SVL
+
+![image](https://github.com/shuNya19/2023_2024-introduction_in_routing-k33212-kardakov-m-d/assets/66511121/c6ac3d29-6a5b-4569-b2a4-9395def057e8)
+
+
 **6. Проверка** </br>
 
-**7. Выводы**
+
+* PC3 - PC2; PC3 - PC1
+
+![image](https://github.com/shuNya19/2023_2024-introduction_in_routing-k33212-kardakov-m-d/assets/66511121/4b9a6a02-adb6-40d9-bc89-ae44a2541e53)
+
+* PC2 - PC3; PC2 - PC1
+
+![image](https://github.com/shuNya19/2023_2024-introduction_in_routing-k33212-kardakov-m-d/assets/66511121/967bdf38-603e-4ac0-b5e3-13d5ad39e3ac)
+
+
+* Для NY
+
+![image](https://github.com/shuNya19/2023_2024-introduction_in_routing-k33212-kardakov-m-d/assets/66511121/b6cfc52c-ffc9-4d5b-afac-b87579742216)
+
+
+* PC1 - PC2; PC1 - PC3
+
+![image](https://github.com/shuNya19/2023_2024-introduction_in_routing-k33212-kardakov-m-d/assets/66511121/873a81c4-5e78-48f9-89a1-bf81f98b0534)
+
+
+
+**7. Выводы**  
+
 В ходе выполнения данной лабораторной работы мы на практике познакомились c эмуляцией распределенной корпоративной сети связи, настройкой iBGP, организацией L3VPN, VPLS
