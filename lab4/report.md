@@ -168,7 +168,7 @@ Router reflect мы настроим на роутерах LND и HKI
 
 ![image](https://github.com/shuNya19/2023_2024-introduction_in_routing-k33212-kardakov-m-d/assets/66511121/23ba5746-7b81-4f0b-86e9-4f35882d67c6)
 
-Далее мы их объединим
+Далее мы свяжем их на других устройствах
 
 ![image](https://github.com/shuNya19/2023_2024-introduction_in_routing-k33212-kardakov-m-d/assets/66511121/1a80893c-6d34-444e-8483-0b7fee05f3cc)
 
