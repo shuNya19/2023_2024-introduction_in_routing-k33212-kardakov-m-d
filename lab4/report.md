@@ -98,21 +98,6 @@ Router reflect мы настроим на роутерах LND и HKI
 
 ![image](https://github.com/shuNya19/2023_2024-introduction_in_routing-k33212-kardakov-m-d/assets/66511121/a67be009-ac7c-4e99-99f3-93757df4cf5a)
 
-После настройки router reflect у нас обновится таблица VRF_DEVOPS
-
-* NY
-
-![image](https://github.com/shuNya19/2023_2024-introduction_in_routing-k33212-kardakov-m-d/assets/66511121/a5ffb79a-aa10-4895-b112-c753b7e6c15b)
-
-* SVL
-
-![image](https://github.com/shuNya19/2023_2024-introduction_in_routing-k33212-kardakov-m-d/assets/66511121/81e8f2f0-9c6c-4d15-aaf0-19da3d2bda9a)
-
-
-* SPB
-
-![image](https://github.com/shuNya19/2023_2024-introduction_in_routing-k33212-kardakov-m-d/assets/66511121/f9acc769-fc50-4d77-86a9-37897b5f96f9)
-
 
 **5. MPLS** </br>
 
@@ -131,6 +116,22 @@ Router reflect мы настроим на роутерах LND и HKI
 ![image](https://github.com/shuNya19/2023_2024-introduction_in_routing-k33212-kardakov-m-d/assets/66511121/da18da65-2582-4a60-80de-7b6d53b75ce9)
 
 
+
+После настройки router reflect у нас обновится таблица VRF_DEVOPS
+
+* NY
+
+![image](https://github.com/shuNya19/2023_2024-introduction_in_routing-k33212-kardakov-m-d/assets/66511121/a5ffb79a-aa10-4895-b112-c753b7e6c15b)
+
+* SVL
+
+![image](https://github.com/shuNya19/2023_2024-introduction_in_routing-k33212-kardakov-m-d/assets/66511121/81e8f2f0-9c6c-4d15-aaf0-19da3d2bda9a)
+
+
+* SPB
+
+![image](https://github.com/shuNya19/2023_2024-introduction_in_routing-k33212-kardakov-m-d/assets/66511121/f9acc769-fc50-4d77-86a9-37897b5f96f9)
+
 **4. Проверка** </br>
 
 * PC3 - PC2; PC3 - PC1
@@ -140,7 +141,13 @@ Router reflect мы настроим на роутерах LND и HKI
 
 * PC2 - PC3; PC2 - PC1
 
+![image](https://github.com/shuNya19/2023_2024-introduction_in_routing-k33212-kardakov-m-d/assets/66511121/fe045f4b-3c81-46cb-a07f-264662f4b988)
+
+
 * PC1 - PC2; PC1 - PC2
+
+![image](https://github.com/shuNya19/2023_2024-introduction_in_routing-k33212-kardakov-m-d/assets/66511121/48404acb-62ba-41a6-b2dd-5a2781b7b89f)
+
 
 **5. Часть 2 - VPLS. Настройка мостов**</br>
 
